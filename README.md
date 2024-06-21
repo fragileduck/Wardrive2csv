@@ -1,5 +1,12 @@
-This Python script simplifies the process of converting text files produced by a wardriving rig into CSV format. The data collected during wardriving often comes in text format, which may not be optimal for further analysis. This script aims to streamline the process of converting this data into a more structured CSV format, which is easier to work with and analyze using various data analysis tools.
+Wardriving Data Converter
 
-Converts wardriving data from text files into CSV format.
+This Python script simplifies the process of converting text files produced by a wardriving rig into CSV format. Wardriving data, often collected in text format, can be challenging to analyze directly. This script streamlines the conversion process, making the data more structured and easier to work with using various data analysis tools.
+Features
 
-Parses relevant information such as network name (SSID), BSSID (MAC address), encryption type, GPS coordinates( lat and long), and such.
+    Converts wardriving data from text files into CSV format.
+    Parses and extracts relevant information such as:
+        Network Name (SSID)
+        BSSID (MAC address)
+        Encryption Type
+        GPS Coordinates (Latitude and Longitude)
+        Additional relevant data points
